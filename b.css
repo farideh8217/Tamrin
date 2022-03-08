@@ -1,0 +1,14 @@
+.list ul li{
+    display: inline-block;
+}
+.list ul li::after{
+    content: '';
+    width: 100%;
+    color: red;
+    height: 2px;
+    display: block;
+    margin: auto;
+}
+.list ul li:hover::after{
+    width: 100%;
+}
